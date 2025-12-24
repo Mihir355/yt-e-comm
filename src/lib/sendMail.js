@@ -1,5 +1,4 @@
 import nodemailer from "nodemailer";
-import { success } from "zod";
 export const sendMail = async (subject, receiver, body) => {
   const transporter = nodemailer.createTransport({
     host: process.env.NODEMAILER_HOST,

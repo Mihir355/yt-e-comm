@@ -1,13 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import Logo from "../../../../../public/assets/images/logo-black.png";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { zSchema } from "../../../../lib/zodSchema";
-import { email } from "zod";
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
 import { showToast } from "../../../../lib/showToast";
 import {
   Form,

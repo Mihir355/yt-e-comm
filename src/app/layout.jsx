@@ -1,5 +1,5 @@
 import "./globals.css";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import GlobalProvider from "@/components/Application/GlobalProvider";
 export const metadata = {
   title: "Create Next App",

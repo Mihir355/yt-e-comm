@@ -1,12 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { zSchema } from "../../lib/zodSchema";
-import { email } from "zod";
 import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
 import { showToast } from "../../lib/showToast";
 import {
   Form,
@@ -16,7 +13,6 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import Link from "next/link";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa6";
 import { Input } from "@/components/ui/input";
